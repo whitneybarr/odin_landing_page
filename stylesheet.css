@@ -91,3 +91,21 @@ a  {
     font-weight: 900;
     color: #1f2937;
 }
+
+.images {
+    display: flex;
+    gap: 25px;
+}
+
+.unit img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
