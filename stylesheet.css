@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .top {
@@ -30,6 +31,7 @@ li  {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 800;
 }
 
 a  {
@@ -47,10 +49,11 @@ a  {
     display: flex;
     padding: 100px 0px;
     gap: 20px;
+    justify-content: center;
 }
 
 .hero-text {
-    flex: 1;
+    /* flex: 1; */
 }
 .hero-text h1 {
     font-size: 48px;
@@ -68,16 +71,20 @@ a  {
 .top-image {
     max-width: 720px;
     height: auto;
-    flex: 2;
+    /* flex: 2; */
 }
 
-.hero-text button {
+button {
     background-color: #3882f6;
     border-radius: 10px;
     color: white;
-    padding: 5px 30px;
     border-style: none;
     font-weight: 800;
+    height: 50px;
+    width: 100px;
+    margin: 0px;
+    font-size: 18px;
+    padding: 0px;
 }  
 
 .content {
@@ -120,6 +127,7 @@ a  {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 100px 0px;
 }
 
 #q-text {
@@ -128,6 +136,8 @@ a  {
     font-style: italic;
     color: #1f2937;
     margin-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #q-name {
@@ -136,4 +146,57 @@ a  {
     color: #1f2937;
     align-self: flex-end;
     margin-top: 0px;
+    padding-right: 100px;
+}
+
+.action {
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 25px 100px;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-button   {
+    flex: 1;
+    justify-self: flex-end;
+    text-align: center;
+}
+
+.a-button button{
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 0px;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.action-text  {
+    margin: 0px;
+    flex: 2;
+    justify-items: flex-start;
+    color: white;
+}
+
+.action-text h3 {
+    font-size: 24px;
+    margin: 3px;
+}
+
+.action-text p {
+    font-size: 18px;
+    margin: 3px;
+}
+
+.footer {
+    justify-self: stretch;
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px;
 }
