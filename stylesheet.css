@@ -84,6 +84,7 @@ a  {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px;
 }
 
 .content h2 {
@@ -101,6 +102,9 @@ a  {
     max-width: 200px;
     height: auto;
     border-radius: 10px;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .unit {
@@ -109,3 +113,27 @@ a  {
     max-width: 200px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 50px; 
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#q-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0px;
+}
+
+#q-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+    margin-top: 0px;
+}
